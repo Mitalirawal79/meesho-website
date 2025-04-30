@@ -1,0 +1,173 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing:content-box;
+cursor: pointer;
+}
+
+.navbar {
+display:flex;
+position: fixed;
+background-color: white;
+height: 70px;
+width: 100%;
+text-align: center;
+}
+/*box1*/
+.nav-logo {
+height: 55px;
+width: 108px;
+padding-top: 20px;
+padding-left: 6%;
+}
+.logo {
+background-image: url("meeshologo.png");
+background-size: contain;
+height: 35px;
+width: 160px;
+}
+/*box2 */
+.nav-search {
+display: flex;
+text-align: center;
+width: 650px;
+height: 40px;
+padding-top: 20px;
+color: rgb(144, 144, 169);
+margin-left: 6%;
+}
+.search-icon {
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.6rem;
+background-color: white;
+border: 1px solid rgb(139, 139,163);
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border-right: none;
+}
+.search-input {
+width: 360px;
+font-size: 1rem;
+border: 1px solid rgb(139, 139,163);
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+border-left: none;
+}
+
+.icons {
+background-color: white;
+width: 100%;
+display: flex;
+line-height: 65px;
+}
+.icon {
+display: flex;
+font-size: large;
+margin-top: 29px;
+margin-left: 50px;
+}
+
+.para ul {
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+}
+.para ul li {
+display: inline;
+}
+.para ul li p{
+padding: 0.5rem 1rem;
+display: block;
+color: #353543;
+}
+.para i {
+font-size: large;
+line-height: 80px;
+}
+
+a{
+text-decoration: none;
+}
+
+/* 2nd section  */
+.panel {
+position: fixed;
+background-color: white;
+width: 100%;
+height: 52px;
+color: white;
+align-items: center;
+border: 1px solid rgb(139, 139,163);
+border-bottom: 2px solid rgb(139, 139,163);
+margin-top: 4.6%;
+}
+.panel-ops p {
+display: block;
+font-size: 16px;
+color: #353543;
+font-weight: 3px;
+line-height: 40px;
+}
+.panel-ops {
+display: flex;
+width: 95%;
+justify-content: space-around;
+margin-left: 5%;
+padding: 0.5rem 0.1rem;
+}
+.panel-ops p:hover{
+color: purple;
+font-weight: bold;
+}
+  
+/* section  */
+
+
+main {
+padding-top: 10%;
+padding-left: 5%;
+}
+
+.product-section h4 {
+margin-bottom: 15px;
+color: gray;
+} 
+
+.product-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+}
+
+.product-card {
+background-color: #fff;
+padding: 10px;
+border: 1px solid #ddd;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+width: 90%;
+height: 250px;
+object-fit:cover;
+}
+
+.product-card h3 {
+margin-top: 5px; 
+color: black;
+padding-right: 45%;
+}
+
+.product-card p {
+color: rgb(109, 99, 99);
+font-size: 13px;
+margin-top: 5px;
+padding-right: 30%;
+}
+    
+    
